@@ -12,15 +12,9 @@ function App() {
       </div>
 
       <div className={LinkIconContainer}>
-        <div className={linkIconItem}>
-          # 大阪工業大学
-        </div>
-        <div className={linkIconItem}>
-          # HxSコンピュータ部
-        </div>
-        <div className={linkIconItem}>
-          # MAGIOT
-        </div>
+        <a href='https://www.oit.ac.jp/' target='blank' className={linkIconItem}># 大阪工業大学</a>
+        <a href='https://www.oit.ac.jp/' target='blank' className={linkIconItem}># HxSコンピュータ部</a>
+        <a href='https://www.oit.ac.jp/' target='blank' className={linkIconItem}># MAGIOT</a>
       </div>
 
       <div className={LinkContainer}>

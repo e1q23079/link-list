@@ -77,4 +77,7 @@ export const linkIconItem = style({
     padding: "10px",
     textAlign: "center",
     backgroundColor: "white",
+    ":hover": {
+        backgroundColor: "#D3F9B1",
+    },
 });
