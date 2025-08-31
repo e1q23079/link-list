@@ -37,6 +37,7 @@ export const linkItem = style({
     borderRadius: "10px",
     border: "solid #8ED973",
     color: "#0E2841",
+    width: "70vw"
 });
 
 // リンクタイトル
@@ -69,7 +70,7 @@ export const LinkListContainer = style({
     display: "grid",
     gridTemplateColumns: "1fr 1fr 1fr",
     gap: "10px",
-    justifyContent: "center",
+    justifyContent: "center"
 });
 
 // リンクアイコンアイテム
