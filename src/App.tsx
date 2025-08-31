@@ -13,8 +13,8 @@ function App() {
 
       <div className={LinkListContainer}>
         <a href='https://www.oit.ac.jp/' target='blank' className={linkListItem}># 大阪工業大学</a>
-        <a href='https://www.oit.ac.jp/' target='blank' className={linkListItem}># HxSコンピュータ部</a>
-        <a href='https://www.oit.ac.jp/' target='blank' className={linkListItem}># MAGIOT</a>
+        <a href='https://x.com/hxs_/' target='blank' className={linkListItem}># HxSコンピュータ部</a>
+        <a href='https://magiot.web.app/' target='blank' className={linkListItem}># MAGIOT</a>
       </div>
 
       <div className={LinkContainer}>
