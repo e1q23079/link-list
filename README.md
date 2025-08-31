@@ -48,3 +48,9 @@ export default tseslint.config({
   },
 })
 ```
+
+## 開発サーバー起動
+
+```bash
+npm run dev
+```
