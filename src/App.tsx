@@ -45,7 +45,7 @@ const App = () => {
           <div className={linkTitle}>| Q23079's blog</div>
           <img src='/link-list/files/blog.png' alt='Q23079s blog' className={photoItem} />
           <div className={linkDiscription}>
-            大学での学びや個人開発の経験をもとに、プログラミングやWeb・モバイル開発の知見を発信しています．
+            大学での学びや個人開発の経験をもとに，プログラミングやWeb・モバイル開発の知見を発信しています．
           </div>
           <a href="https://e1q23079.vercel.app/" className={linkUrl}>Q23079's blog</a>
         </div>
@@ -56,7 +56,7 @@ const App = () => {
           <div className={linkTitle}>| Q23079's GitHub</div>
           <img src='/link-list/files/GitHub.png' alt='GitHub' className={photoItem} />
           <div className={linkDiscription}>
-            GitHubでは、個人プロジェクトや学習成果を中心に、Web・モバイル開発やプログラミング実装例を公開しています．
+            GitHubでは、個人プロジェクトや学習成果を中心に，Web・モバイル開発やプログラミング実装例を公開しています．
           </div>
           <a href="https://github.com/e1q23079" className={linkUrl}>Q23079's GitHub</a>
         </div>
