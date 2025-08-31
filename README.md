@@ -65,4 +65,6 @@ npm run start
 
 ### GitHub Pages設定
 
-`docs`に設定する
+- Build and deployment
+  - Source
+    - GitHub Actions
