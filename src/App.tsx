@@ -1,6 +1,6 @@
 // import './App.css'
 import logo from './assets/icon.png'
-import { discription, LinkContainer, linkDiscription, LinkIconContainer, linkIconItem, linkItem, linkTitle, linkUrl, title, userName } from './style.css.ts'
+import { discription, LinkContainer, linkDiscription, LinkListContainer, linkListItem, linkItem, linkTitle, linkUrl, title, userName } from './style.css.ts'
 
 function App() {
   return (
@@ -11,10 +11,10 @@ function App() {
         <div className={discription}>日々挑戦し続ける，情報系学生の記録</div>
       </div>
 
-      <div className={LinkIconContainer}>
-        <a href='https://www.oit.ac.jp/' target='blank' className={linkIconItem}># 大阪工業大学</a>
-        <a href='https://www.oit.ac.jp/' target='blank' className={linkIconItem}># HxSコンピュータ部</a>
-        <a href='https://www.oit.ac.jp/' target='blank' className={linkIconItem}># MAGIOT</a>
+      <div className={LinkListContainer}>
+        <a href='https://www.oit.ac.jp/' target='blank' className={linkListItem}># 大阪工業大学</a>
+        <a href='https://www.oit.ac.jp/' target='blank' className={linkListItem}># HxSコンピュータ部</a>
+        <a href='https://www.oit.ac.jp/' target='blank' className={linkListItem}># MAGIOT</a>
       </div>
 
       <div className={LinkContainer}>
