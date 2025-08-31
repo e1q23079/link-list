@@ -40,6 +40,12 @@ export const linkItem = style({
     width: "70vw"
 });
 
+// 写真アイテム
+export const photoItem = style({
+    width: "70vw",
+    paddingTop: "10px",
+});
+
 // リンクタイトル
 export const linkTitle = style({
     fontSize: "large",

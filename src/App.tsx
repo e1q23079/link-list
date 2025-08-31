@@ -1,6 +1,6 @@
 // import './App.css'
 import logo from './assets/icon.png'
-import { discription, LinkContainer, linkDiscription, LinkListContainer, linkListItem, linkItem, linkTitle, linkUrl, title, userName, copyRight } from './style.css.ts'
+import { discription, LinkContainer, linkDiscription, LinkListContainer, linkListItem, linkItem, linkTitle, linkUrl, title, userName, copyRight, photoItem } from './style.css.ts'
 
 function App() {
 
@@ -32,6 +32,7 @@ function App() {
       <div className={LinkContainer}>
         <div className={linkItem}>
           <div className={linkTitle}>| Q23079's portfolio</div>
+          <img src='/link-list/files/portfolio.png' alt='Q23079s portfolio' className={photoItem} />
           <div className={linkDiscription}>
             これまでに制作した作品やプロジェクトを紹介しているポートフォリオサイトです．
           </div>
@@ -42,6 +43,7 @@ function App() {
       <div className={LinkContainer}>
         <div className={linkItem}>
           <div className={linkTitle}>| Q23079's blog</div>
+          <img src='/link-list/files/blog.png' alt='Q23079s blog' className={photoItem} />
           <div className={linkDiscription}>
             大学での学びや個人開発の経験をもとに、プログラミングやWeb・モバイル開発の知見を発信しています．
           </div>
@@ -52,6 +54,7 @@ function App() {
       <div className={LinkContainer}>
         <div className={linkItem}>
           <div className={linkTitle}>| Q23079's GitHub</div>
+          <img src='/link-list/files/GitHub.png' alt='GitHub' className={photoItem} />
           <div className={linkDiscription}>
             GitHubでは、個人プロジェクトや学習成果を中心に、Web・モバイル開発やプログラミング実装例を公開しています．
           </div>
