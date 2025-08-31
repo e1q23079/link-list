@@ -1,8 +1,20 @@
 // import './App.css'
 import logo from './assets/icon.png'
-import { discription, LinkContainer, linkDiscription, LinkListContainer, linkListItem, linkItem, linkTitle, linkUrl, title, userName } from './style.css.ts'
+import { discription, LinkContainer, linkDiscription, LinkListContainer, linkListItem, linkItem, linkTitle, linkUrl, title, userName, copyRight } from './style.css.ts'
 
 function App() {
+
+  // 日付取得
+  const today = new Date();
+
+  const year = today.getFullYear();
+
+  let yearText = year.toString();
+
+  if (year !== 2025) {
+    yearText = `2025-${year}`;
+  }
+
   return (
     <>
       <div className={title}>
@@ -46,6 +58,11 @@ function App() {
           <a href="https://github.com/e1q23079" className={linkUrl}>Q23079's GitHub</a>
         </div>
       </div>
+
+      <footer>
+        <hr></hr>
+        <div className={copyRight}>© {yearText} Q23079 All Rights Reserved.</div>
+      </footer>
 
 
     </>

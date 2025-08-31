@@ -82,3 +82,8 @@ export const linkListItem = style({
         backgroundColor: "#D3F9B1",
     },
 });
+
+// コピーライト
+export const copyRight = style({
+    textAlign: "center",
+});
