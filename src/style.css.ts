@@ -65,7 +65,7 @@ export const linkUrl = style({
 });
 
 // リンクアイコンコンテナ
-export const LinkIconContainer = style({
+export const LinkListContainer = style({
     display: "grid",
     gridTemplateColumns: "1fr 1fr 1fr",
     gap: "10px",
@@ -73,7 +73,7 @@ export const LinkIconContainer = style({
 });
 
 // リンクアイコンアイテム
-export const linkIconItem = style({
+export const linkListItem = style({
     padding: "10px",
     textAlign: "center",
     backgroundColor: "white",
