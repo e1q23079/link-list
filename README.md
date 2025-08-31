@@ -62,3 +62,7 @@ npm run dev
 ```bash
 npm run start
 ```
+
+### GitHub Pages設定
+
+`docs`に設定する
