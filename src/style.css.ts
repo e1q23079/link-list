@@ -1,4 +1,5 @@
 import { style } from "@vanilla-extract/css";
+
 // タイトル
 export const title = style({
     display: "flex",
@@ -19,13 +20,13 @@ export const discription = style({
     fontSize: "medium",
 });
 
-// リンクリストコンテナ
-export const container = style({
+
+// コンテンツコンテナ
+export const LinkContainer = style({
     display: "flex",
     flexDirection: "row",
     justifyContent: "center",
     alignItems: "center",
-    backgroundColor: "#8ED973",
 });
 
 // リンクアイテム
@@ -63,9 +64,17 @@ export const linkUrl = style({
     }
 });
 
-
-export const container2 = style({
-    flexDirection: "column",
-    padding: "10px"
+// リンクアイコンコンテナ
+export const LinkIconContainer = style({
+    display: "grid",
+    gridTemplateColumns: "1fr 1fr 1fr",
+    gap: "10px",
+    justifyContent: "center",
 });
 
+// リンクアイコンアイテム
+export const linkIconItem = style({
+    padding: "10px",
+    textAlign: "center",
+    backgroundColor: "white",
+});

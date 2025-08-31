@@ -1,6 +1,6 @@
 // import './App.css'
 import logo from './assets/icon.png'
-import { container2, discription, linkDiscription, linkItem, linkTitle, linkUrl, title, userName } from './style.css.ts'
+import { discription, LinkContainer, linkDiscription, LinkIconContainer, linkIconItem, linkItem, linkTitle, linkUrl, title, userName } from './style.css.ts'
 
 function App() {
   return (
@@ -11,7 +11,19 @@ function App() {
         <div className={discription}>日々挑戦し続ける，情報系学生の記録</div>
       </div>
 
-      <div className={container2}>
+      <div className={LinkIconContainer}>
+        <div className={linkIconItem}>
+          # 大阪工業大学
+        </div>
+        <div className={linkIconItem}>
+          # HxSコンピュータ部
+        </div>
+        <div className={linkIconItem}>
+          # MAGIOT
+        </div>
+      </div>
+
+      <div className={LinkContainer}>
         <div className={linkItem}>
           <div className={linkTitle}>| e1q23079's portfolio</div>
           <div className={linkDiscription}>
@@ -20,6 +32,8 @@ function App() {
           <a href="https://e1q23079.github.io/portfolio" className={linkUrl}>e1q23079's portfolio</a>
         </div>
       </div>
+
+
     </>
   )
 }
