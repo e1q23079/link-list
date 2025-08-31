@@ -2,7 +2,7 @@
 import logo from './assets/icon.png'
 import { discription, LinkContainer, linkDiscription, LinkListContainer, linkListItem, linkItem, linkTitle, linkUrl, title, userName, copyRight, photoItem } from './style.css.ts'
 
-function App() {
+const App = () => {
 
   // 日付取得
   const today = new Date();
