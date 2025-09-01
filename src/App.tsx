@@ -19,7 +19,7 @@ const App = () => {
     <>
       <div className={title}>
         <img src={logo} alt="logo" />
-        <div className={userName}>e1q23079</div>
+        <div className={userName}>Q23079</div>
         <div className={discription}>日々挑戦し続ける，情報系学生の記録</div>
       </div>
 
